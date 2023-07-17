@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uPkheFrHNNv25uqvNUE5L3wSUDGbb6o7JwXVhpSWQKc=",
+  "Source": "PatientRegistration.API",
+  "BasePath": "_content/PatientRegistration.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

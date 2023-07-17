@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Replace Connection settings in appsettings.json with your own settings
+DefaultConnection": Server=servername,portnumber;Database=databasename;User Id=username;Password=password;TrustServerCertificate=true;
+## Use sql script to make db
+CREATE TABLE Patients (
+    Id int IDENTITY(1,1) PRIMARY KEY,
+    Name varchar(255) NOT NULL,
+    Email varchar(255),
+    Country varchar(255),
+	DoctorId int NOT NULL
+);
+
+INSERT INTO Patients (Name, Email, Country, DoctorId)
+VALUES ('Roby', 'roby@roby.com', 'USA', 1234567),
+('Johny', 'johny@rjohny.com', 'LV', 123),
+('Jenn', 'jen@jenn.com', 'Germany', 1234);
+
